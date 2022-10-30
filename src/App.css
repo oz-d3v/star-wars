@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+.star_wars_app {
+    height: 500px;
+    width: 500px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: black;
+    color: #e7bc2a;
+    display: flex;
+    border-style: solid;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.movies_title_container {
+    width: 210px;
+    align-items: flex-start;
+    border: #e7bc2a;
+    border-width: 1px;
+    border-style: solid;
+    padding: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.details_container {
+    padding: 10px;
+    border-width: 10px;
+    border: #e7bc2a;
+    text-align-last: center;
+    align-self: center;
+    width: fit-content;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.title{
+    border: #e7bc2a;
+    border-style:solid;
+    border-width: 1px;
+    text-align-last: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.releaseDate{
+    margin: 0;
+    border: #e7bc2a;
+    border-style:solid;
+    border-width: 1px;
+    text-align-last: center;
 }
